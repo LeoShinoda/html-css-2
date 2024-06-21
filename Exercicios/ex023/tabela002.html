@@ -13,6 +13,7 @@
         table {
             width: 450px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,
@@ -28,22 +29,30 @@
             background-color: lightgrey;
         }
 
+        thead,
+        tfoot {
+            background-color: #383838;
+            color: white;
+        }
+
+        thead>tr>th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }
+
         /* 
         Usar essa opção de odd - impar e even - par, caso seu site tenha outra cor que nao seja a branca de fundo, ou que tenha alguma imagem
         */
-        tbody > tr:nth-child(odd) { /* 2n-1 */
+        tbody>tr:nth-child(odd) {
+            /* 2n-1 */
             background-color: white;
         }
-        
-        tbody > tr:nth-child(even) { /* 2n */
-            background-color: lightgray;
-            text-decoration: 
-        }
 
-        thead,
-        tfoot {
-            background-color: gray;
-            color: white;
+        tbody>tr:nth-child(even) {
+            /* 2n */
+            background-color: lightgray;
+            text-decoration:
 
         }
 
@@ -96,19 +105,19 @@
             </tr>
             <tr>
                 <td> Rio Grande do Sul</td>
-                <td class="num">10 882 965	</td>
+                <td class="num">10 882 965 </td>
             </tr>
             <tr>
                 <td>Pernambuco</td>
-                <td class="num">9 058 931	</td>
+                <td class="num">9 058 931 </td>
             </tr>
             <tr>
                 <td>Ceará</td>
-                <td class="num">8 794 957	</td>
+                <td class="num">8 794 957 </td>
             </tr>
             <tr>
                 <td>Pará</td>
-                <td class="num">8 121 025	</td>
+                <td class="num">8 121 025 </td>
             </tr>
             <tr>
                 <td>Santa Catarina</td>
@@ -128,7 +137,7 @@
             </tr>
             <tr>
                 <td>Amazonas</td>
-                <td class="num">3 941 613	</td>
+                <td class="num">3 941 613 </td>
             </tr>
             <tr>
                 <td>Espírito Santo</td>
@@ -148,7 +157,7 @@
             </tr>
             <tr>
                 <td>Alagoas</td>
-                <td class="num">3 127 683	</td>
+                <td class="num">3 127 683 </td>
             </tr>
             <tr>
                 <td>Distrito Federal</td>
@@ -191,6 +200,26 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, incidunt! Mollitia ipsam temporibus rem omnis suscipit magni quidem asperiores deserunt voluptas fugit? Modi molestiae, illo unde dolore incidunt esse dolores.
+    Odit ullam perferendis qui, facilis tenetur numquam eos eum quae totam rem nobis voluptatem excepturi nisi in enim asperiores vitae, molestias quia! Veritatis consequuntur, provident in itaque totam quas quasi?
+    Culpa tenetur in reiciendis obcaecati excepturi nobis sequi libero placeat voluptate. Et esse error voluptate cupiditate blanditiis? Error sunt repellat esse. Neque velit cupiditate veritatis ea recusandae quis, quos quae?
+    Quibusdam ad dolores fuga consequuntur officia harum suscipit sequi doloremque similique quidem aperiam dolor deleniti, beatae maiores voluptatem. Dolores nam rerum recusandae architecto. A modi adipisci, quam quasi fugiat non.
+    Aut accusamus veniam pariatur officia minus id a voluptatibus. Nihil facere totam iste temporibus labore quae dicta voluptatibus debitis quisquam, ea nisi ab fugit, veniam repudiandae quod? Eligendi, delectus perspiciatis.
+    Nostrum quos perferendis eveniet porro reprehenderit accusantium suscipit ipsam doloremque! Nostrum, iste dignissimos incidunt, asperiores optio harum quam molestias mollitia quis voluptate iure voluptatem numquam expedita consectetur distinctio? Error, exercitationem.
+    Sapiente placeat ab, necessitatibus nemo perferendis praesentium reiciendis distinctio sed at ea corrupti aliquam minima doloribus commodi incidunt hic esse cum? Praesentium rem veniam, molestiae commodi magni optio impedit aut!
+    Vitae at facere veritatis delectus assumenda, incidunt iusto dolorum deleniti tempore quasi illum provident mollitia doloremque eos unde. Labore, esse nihil quidem fuga a eos similique delectus. Reprehenderit, dolorem numquam!
+    Officia asperiores incidunt velit sint voluptates repudiandae soluta assumenda est modi iure corporis provident labore veritatis alias minus, eaque impedit harum, ullam, maxime dignissimos hic. Molestiae asperiores aut saepe perferendis?
+    Culpa, laborum fugiat dignissimos nulla delectus porro labore! Amet non corrupti accusantium quibusdam laboriosam eaque impedit molestiae soluta deleniti obcaecati sequi, iure ut minus deserunt consequuntur! Quisquam ipsa fuga similique.
+    Inventore quia unde quasi odio vitae dolore! Eaque perferendis corrupti reprehenderit mollitia labore, similique quisquam officiis molestias possimus veritatis quae omnis ipsam necessitatibus consequatur nostrum dicta! Dignissimos similique necessitatibus commodi.
+    Error corporis eum commodi natus voluptate ex est quibusdam dolore autem at quod consectetur nisi ducimus, voluptas accusamus hic blanditiis iste rem quia in nihil vitae eveniet. Ipsam, illo eaque?
+    Ducimus et rerum nemo reprehenderit. Ad totam animi accusamus blanditiis, incidunt, vitae nulla corporis quia soluta id earum ratione possimus saepe ex aliquid nisi distinctio? Tempora reprehenderit laudantium doloribus fugiat.
+    Eaque similique recusandae perferendis velit voluptatum numquam nostrum? Assumenda magnam nulla distinctio cumque vero necessitatibus laudantium expedita asperiores voluptatibus nisi? Rem vitae, facilis enim sed dolorem magni perferendis mollitia iure.
+    Debitis hic minima omnis molestiae, deleniti dolore. Perspiciatis sit fugiat reprehenderit dolorem nostrum, deserunt corporis. Ut nesciunt repellendus quasi, quibusdam, nulla deleniti nisi consectetur dolorum hic excepturi minus atque ex.
+    Earum temporibus, fugit id quia recusandae velit voluptate, tempore, atque nam enim alias cumque accusantium in incidunt vel? Dolor nemo amet maxime quae quidem molestias excepturi totam vitae labore animi.
+    Nihil provident, aliquid quos vitae nulla, magni, ad asperiores optio esse ipsum eaque nobis aperiam! Consectetur, placeat officiis. Corporis, minus consectetur? Enim, eum cumque maiores unde autem consequatur quas necessitatibus!
+    Esse, alias culpa tempora quidem assumenda recusandae quod! Corrupti voluptatibus deserunt quaerat culpa nisi consequuntur enim ut aspernatur sunt! Explicabo eaque possimus repudiandae aspernatur aut fuga veniam quaerat! Tempore, veritatis.
+    At nisi magni quam officiis itaque esse perspiciatis facere reprehenderit dolor eaque ab eum praesentium ut, quas sapiente asperiores aliquid molestias voluptatum sunt atque labore veritatis aperiam unde! Nostrum, suscipit?
+    Reprehenderit accusamus, illum inventore ab magni fugiat debitis. Sit praesentium rerum itaque necessitatibus esse in fugiat inventore consequatur sed, est obcaecati animi eaque soluta, explicabo perspiciatis nam rem similique laborum.</p>
 </body>
 
 </html>
